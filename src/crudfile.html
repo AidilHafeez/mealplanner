@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD for Meal Planner</title>
+    <link rel="stylesheet" href="crudfile.css" />
+
+    <!--Font style links-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="body">
+      <div>
+        <div class="content">
+
+          <!--Header text-->
+          <h1>Create Your Meal Planner!</h1>
+          <form>
+            <div>
+              <!--Label section-->
+              <label class="text">File name</label><br><br>
+
+              <!--Input text-->
+              <input id="fileName" type="text" placeholder="Enter your file name here.."><br><br>
+            </div>
+
+            <div>
+              <!--Label section-->
+              <label class="text">Content</label><br><br>
+
+              <!--Text area section-->
+              <textarea id="fileContents" rows="5" placeholder="Enter your contents here.."></textarea><br><br>
+            </div>
+          </form>
+
+          <!--Button that create the file-->
+          <button id="btnCreate" class="btn">Create</button>&ensp;
+
+          <!--Button that read the file-->
+          <button id="btnRead" class="btn">Read</button>&ensp;
+          
+          <!--Button that delete the file-->
+          <button id="btnDelete" class="btn">Delete</button>&ensp;
+
+          <!--Button that update the file-->
+          <button id="btnUpdate" class="btn">Update</button>&ensp;
+
+          <br><br>
+
+          <!--Button that return back to the main page-->
+          <a href="index.html"><button class="return">Return to homepage</button></a>
+        </div>
+    
+        
+      </div>
+    </div>
+    
+    
+
+    <script src="crudfile.js">
+      
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meal Planner App</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!--Link for font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="body">
+      <div class="content">
+        <!--Text header-->
+        <h1>Discover Your Food!</h1>
+
+        <!--Caption text-->
+        <p class="header">For all people who desired for food!</p>
+
+        <!--Input text-->
+        <input type="text" placeholder="Search Food.." id="food_input">
+
+        <!--Search button-->
+        <button class="search" onclick="buttonClicked()" >Search</button>
+
+        <!--Button that navigates another page-->
+        <a href="crudfile.html"><button class="crudbtn">Create Meal Planner</button></a>
+
+        <br><br>
+        
+        <!--Output data (meal name) that will display-->
+        <p id="meal"></p>
+
+        <!--Output data (location) that will display-->
+        <p id="loc"></p>
+
+        <!--Output data (category) that will display-->
+        <p id="cat"></p>
+
+        <!--Output data (ingredient) that will display-->
+        <p id="ingre"></p>
+
+        <!--Output data (instructions) that will display-->
+        <p id="instruc"></p>
+
+        <!--Output data (more info) that will display-->
+        <p id="more"></p>
+        <br><br>
+      </div>
+
+      <!--The .js script that will be executed-->
+      <script src = "main.js"></script>
+    </div>
+  </body>
+</html>
